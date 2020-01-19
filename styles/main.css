@@ -45,11 +45,22 @@ header {
 
 #nav_list li a {
     transition: all 0.3s ease 0s;
+    color: black;
 }
 
 #nav_list li a:hover {
     color: #0088a9;
 }
+
+/* Billboard */
+.billboard > img {
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+}
+
+/* cta */
+
 
 .cta {
     display: flex;
@@ -77,6 +88,56 @@ header {
     text-decoration: none;
     display: inline-block;
 }
+
+/* Services */
+
+.services {
+    padding: 100px 100px;
+    background: #fbfbfb;
+}
+
+.services h2{
+    color: #606060;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.services .separator{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.services ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    overflow: hidden;
+}
+
+.services ul li{
+    width: 293px;
+    height: auto;
+    text-align: center;
+}
+
+.services ul li img.s_icons{
+    margin-bottom: 40px;
+}
+
+.services ul li h3{
+    color: #746969;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.services ul li p{
+    color: #746969;
+    font-size: 14px;
+    line-height: 22px;
+}
+
 
 /* image gallery */
 
@@ -157,7 +218,7 @@ header {
 
 /* footer */
 
-footer_widget {
+.footer_widget {
     display: flex;
     justify-content: space-around;
     background-color: #353535;
@@ -165,12 +226,12 @@ footer_widget {
 
 }
 
-footer_widget > div {
+.footer_widget > div {
     width: 200px;
     padding: 25px;
 }
 
-footer_widget > div > h1 {
+.footer_widget > div > h1 {
     padding: 10px 0;
     font-size: 20px;
 }
